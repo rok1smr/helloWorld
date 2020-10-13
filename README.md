@@ -27,8 +27,8 @@ func checkLeapYear(year: Int) {
 }
 
 The algorithm is quite tricky so I suggest you use the following logic when performing it on your own:
- If the year is evenly divisible by 4, go to step 2.   Otherwise, go to step 5.
- If the year is evenly divisible by 100, go to step 3.   Otherwise, go to step 4.
- If the year is evenly divisible by 400, go to step 4.   Otherwise, go to step 5.
- The year is a leap year.
- The year is not a leap year.
+1. If the year is evenly divisible by 4, go to step 2.   Otherwise, go to step 5.
+2. If the year is evenly divisible by 100, go to step 3.   Otherwise, go to step 4.
+3. If the year is evenly divisible by 400, go to step 4.   Otherwise, go to step 5.
+4. The year is a leap year.
+5. The year is not a leap year.
